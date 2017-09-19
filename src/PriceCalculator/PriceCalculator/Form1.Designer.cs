@@ -66,6 +66,11 @@
             // 
             this.buyingPrice.DecimalPlaces = 2;
             this.buyingPrice.Location = new System.Drawing.Point(139, 14);
+            this.buyingPrice.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.buyingPrice.Name = "buyingPrice";
             this.buyingPrice.Size = new System.Drawing.Size(237, 22);
             this.buyingPrice.TabIndex = 2;
@@ -74,6 +79,11 @@
             // 
             this.shippingPrice.DecimalPlaces = 2;
             this.shippingPrice.Location = new System.Drawing.Point(139, 57);
+            this.shippingPrice.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.shippingPrice.Name = "shippingPrice";
             this.shippingPrice.Size = new System.Drawing.Size(237, 22);
             this.shippingPrice.TabIndex = 4;
@@ -92,6 +102,11 @@
             // 
             this.profitPercentage.DecimalPlaces = 2;
             this.profitPercentage.Location = new System.Drawing.Point(179, 105);
+            this.profitPercentage.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.profitPercentage.Name = "profitPercentage";
             this.profitPercentage.Size = new System.Drawing.Size(197, 22);
             this.profitPercentage.TabIndex = 6;
